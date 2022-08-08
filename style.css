@@ -331,6 +331,39 @@ footer {
 
 }
 
+@media (max-width: 720px) {
+    header {
+        padding: 9px17px;
+    }
+
+    .navigation {
+        padding-left: 7px;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    section {
+        padding: 50px 10px;
+    }
+
+    .main-content h2 {
+
+        font-size: 0.5em;
+    }
+
+    .main-content h3 {
+        font-size: 1.4em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
 @media (max-width:300px) {
 
     body {
