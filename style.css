@@ -9,6 +9,19 @@
 
 }
 
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    /* the header will not be invisiable*/
+    z-index: 999;
+    /* عشان الهيدير يفض دايما ظاهر ونا بسكرول*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
 
 
 .logo {
@@ -320,38 +333,7 @@ footer {
 
 }
 
-@media (max-width: 720px) {
-    header {
-        padding: 9px17px;
-    }
 
-    .navigation {
-        padding-left: 7px;
-    }
-
-    .title {
-        font-size: 1.2em;
-    }
-
-    section {
-        padding: 50px 10px;
-    }
-
-    .main-content h2 {
-
-        font-size: 0.5em;
-    }
-
-    .main-content h3 {
-        font-size: 1.4em;
-    }
-
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-}
 
 @media (max-width:300px) {
 
